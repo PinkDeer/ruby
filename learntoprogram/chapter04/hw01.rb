@@ -2,14 +2,15 @@
 
 puts 'Привет! Как тебя тебя зовут?'
 name = gets.chomp
+
 puts 'А какая у тебя фамилия?'
 surname = gets.chomp
+
 puts 'А отчество?'
 patr = gets.chomp
+
 puts 'Притятно познакомится ' + surname + ' ' + name + ' ' + patr + '!'
-
 #
-
 puts 'Press Enter go to the next program'
 gets
 
