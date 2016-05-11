@@ -1,5 +1,6 @@
 
 beer = 100
+
 until (beer == 1)
 	beer = beer - 1
 		puts  beer.to_s + ' бутылок пива на стене'
@@ -8,7 +9,7 @@ until (beer == 1)
 		puts beer.to_s + ' ,бутылок пива на стене!'
 		puts ''
 
-end 
+end
 
 
 # черновик
@@ -26,7 +27,7 @@ until (beer == 1)
 		puts ''
 	else
 		if
-			beer >= 92 
+			beer >= 92
 			puts  beer.to_s + ' бутылки пива на стене'
 			puts  beer.to_s + ' бутылки пива!'
 			puts 'Возьму одну, пусти по кругу'
@@ -41,6 +42,6 @@ until (beer == 1)
 			puts ''
 		end
 	end
-end 
+end
 
 =end
