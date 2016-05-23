@@ -57,9 +57,26 @@ x = gets.chomp.to_f
 
 s = 0
 
-1.upto(year) do |mm|
+1.upto(year) do |y|
 		1.upto(12) do |i|
 			s = s + x
-			puts "Год #{mm} месяц #{i}: отложено #{s}"
+			puts "Год #{y} месяц #{i}: отложено #{s}"
 		end
 end
+
+# Вариант Журавля
+
+print "Какую сумму будем откладывать в месяц: "
+x = gets.chomp.to_f
+
+print "Сколько лет будем откладывать: "
+n = gets.chomp.to_i
+
+s = 0
+
+1.upto do |n|
+
+	1.upto(12) do |mm|
+		s = s + x
+		puts "Год #{n} месяц #{mm}, отложено: #{s}"
+	end
