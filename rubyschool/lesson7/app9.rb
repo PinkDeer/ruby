@@ -100,8 +100,16 @@ if y >= 18 && a == "Y"
 			money = money - 100
 		end
 
+		w = rand(1..5)
+		money = money - w
+
 		puts "Осталось денег: #{money} долларов"
 
-	end	
+		if money < 1
+			puts "Вы проиграли"
+			exit
+		end
+
+	end
 
 end
