@@ -1,4 +1,3 @@
-
 def get_command
 
 	x = rand(1..4)
