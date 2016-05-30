@@ -37,4 +37,4 @@ elsif user_choice == :scissors  && comptuter_choice == :paper
 else user_choice == comptuter_choice
   puts "Comptuter choice: #{comptuter_choice}, you choice: #{user_choice}"
    puts "Nobody wins"
-end
+end 
