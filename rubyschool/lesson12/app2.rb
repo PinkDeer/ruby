@@ -20,14 +20,14 @@ loop do
     exit
   end
 
-  puts "Current combinathion: #{a}"
+  puts "Current combination: #{a}"
   puts "You balance: #{balance} dollars"
 end
 
 # or
 
 =begin
-  
+
 hh = {111 => 10, 222 => 20, 333 => 130, 444 => 40, 555 => 50, 666 => 60, 777 => 70, 888 => 80, 999 => 90,}
 
 balance = 100
@@ -47,5 +47,5 @@ loop do
 
   puts "You balance: #{balance} dollars"
 end
-  
+
 =end
