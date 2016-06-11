@@ -3,7 +3,9 @@ class Something
   attr_accessor :name
 
   def initialize
-  send("name=", "Mike")
+    send("name=", "Mike")
+    # or
+    # @name = "Mike"
   end
 
 end
