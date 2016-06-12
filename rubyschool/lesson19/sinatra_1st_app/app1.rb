@@ -10,8 +10,10 @@ post '/' do
 
   if @login == 'admin' && @password == 'secret'
     erb :welcome
+  elsif @login == 'admin' && @password == 'admin'
+    @message = 'Haha, nice try! Access denied!'
   else
-    @message = 'Access denied'
+    @message = 'Access denied!'
     erb :index
   end
 
