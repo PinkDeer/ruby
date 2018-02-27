@@ -7,18 +7,17 @@
   (как 1600 и 2000, которые действительно были високосными).
 =end
 
-#ver1
-
 print "Начальный год: "
 firstYear = gets.chomp.to_i
 print "Конечный год: "
 secondYear = gets.chomp.to_i
 
 while firstYear != secondYear+1
-  #puts "Текущий год: #{firstYear}"
-  leapYear = firstYear % 4
-  if leapYear == 0
-   puts "Високосный год: #{firstYear}"
+  divide_4 = firstYear % 4
+  divide_100 = firstYear % 100
+  divide_400 = firstYear % 400
+  if divide_4 == 0 && divide_100 != 0 || divide_400 == 0
+    puts "Високосный год: #{firstYear}"
   end
   firstYear = firstYear + 1
 end
